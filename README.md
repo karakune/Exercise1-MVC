@@ -14,22 +14,22 @@ Tasks:
 
 # 2:
 
-0. Add pagination to the Movies page using Bootstrap
+# Add pagination to the Movies page using Bootstrap
 
-1. preparation step: add 13 movies to the movies list, bringing the total number of movies to 16.
+0. preparation step: add 13 movies to the movies list, bringing the total number of movies to 16.
 
-2. Insert a pagination bar in your view.
+1. Insert a pagination bar in your view.
 
-3. Modify the controller so that it only gives a portion of the movies list to the view.
+2. Modify the controller so that it only gives a portion of the movies list to the view.
 
-4. Pass a page number through the URL.
+3. Pass a page number through the URL.
 
-5. Tell your controller which movies to display based on the page number passed.
+4. Tell your controller which movies to display based on the page number passed.
 
-6. Add links to the pagination bar's buttons.
+5. Add links to the pagination bar's buttons.
 
-7. (Bonus) Prevent the user from using the previous/next page buttons when he is on the first/last page.
+6. (Bonus) Prevent the user from using the previous/next page buttons when he is on the first/last page.
 
-8. (Bonus) Prevent the user from throwing an exception when trying to reach page 0 or pages above the last page (error 404 is fine).
+7. (Bonus) Prevent the user from throwing an exception when trying to reach page 0 or pages above the last page (error 404 is fine).
 
-9. (Bonus) Do not have any hardcoded values (except for the movies list and the number of movies to show per page).
+8. (Bonus) Do not have any hardcoded values (except for the movies list and the number of movies to show per page).
